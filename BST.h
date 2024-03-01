@@ -113,7 +113,7 @@ void tb( TreeNodePtr treePtr,int n)
       n++;
       tb( treePtr->rightPtr,n ); //Recursion to the right
       for(int a = n;a>1;a--)
-         printf("    ");
+         printf("  ");
       printf("%3d\n",treePtr->data) ;  //print the value          
       tb( treePtr->leftPtr,n ); //Recursion to the left 
    } // end if                          
