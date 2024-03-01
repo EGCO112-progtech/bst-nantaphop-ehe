@@ -31,6 +31,5 @@ for ( i = 1; i < argc; ++i ) {
    printf("\n");
    //printf("\nThe top traversal is:\n");
    tb(b.root,0);
-   printf("\n");
 } // end main
 
