@@ -46,7 +46,7 @@ void insertNode( BST *b, int value ){
 		if(!b->root)	b->root=new_node;
 		else {
          while(!inserted){
-            if(t->data >=value){
+            if(t->data >value){
                /* move/insert to the left*/
                if(!t->leftPtr){
                   t->leftPtr = new_node;
